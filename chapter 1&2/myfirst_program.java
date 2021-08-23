@@ -2,7 +2,7 @@
 /**
  * Write a description of class myfirst_program here.
  *
- * @author (your name)
+ * @author Yiguang Zhu
  * @version (a version number or a date)
  */
 public class myfirst_program
