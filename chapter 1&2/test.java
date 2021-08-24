@@ -7,8 +7,8 @@
  */
 public class Test
 {
-    public static void main (String[] args)
+    public static void man (String[] args)
     {
-        System.out.println ("An emergency Broadcast);
+        System.out.println ("An emergency Broadcast");
     }
 }
