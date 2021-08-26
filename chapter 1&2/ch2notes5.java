@@ -105,7 +105,7 @@ public class ch2notes5
     // page 90 Why do we get this Error???
     /**/
             System.out.print("Enter a number ");
-            x = Keyboard.nextInt   ();
+            x = Keyboard.nextInt   (5);
             System.out.println(x  );
             System.out.print("Enter a word ");
             //word = Keyboard.next   ();
