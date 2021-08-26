@@ -6,7 +6,7 @@
 //Program
 //Description
 //Who helped me: Mr. Hayes
-
+//util is the package. Inside is scanner and random, which are the classes. Ifyou put a star, you can import any class. 
 import java.util.Random; // lets us use the random class
 //you import the Scanner Class!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 import java.util.Scanner; // last word is the the Class
@@ -53,20 +53,25 @@ public class ch2notes5
              * Have numbers but cannot have symbols (except $)
              */
             String myname =        new       String("Kevin Hayes");
-            Integer n2 = 7;//Auto Boxing
+            //Integer n2 = 7;//Auto Boxing
     /**/
             String word = new String("Homer Simpson");
             String word2 = new String("Homer Simpson");
             String word3 = new String("Bart Simpson");
-            String name = new String("Mike");
+            String name = new String();
+            //String is special!!! other class/obj can't dp this
             String last = "Hayes";
-    
+            System.out.println(word.length());
+            System.out.println("The name is"+name);
+   
     
     /*
             System.out.printf("Name:  %s \t ID: %5d \n", name,id);
-            System.out.println( 'a' + 100 );
+            System.out.println( 'a' + 100 ); //chars are ints data type
             System.out.println('a'   );
-            System.out.println("A"+100  );
+            System.out.println("A"+100  ); 
+            System.out.println("The add is :"+(7+5)  ); 
+            System.out.println(7+5 + "is the add"  ); 
     
     //      System.out.printf(  );
     
@@ -77,22 +82,24 @@ public class ch2notes5
         System.out.println( );
         System.out.println(  );
     
-    /*
+    /**/
     
             num1 = 23.89765; num2 = 3.4;
     //Your create a NumberFormat and Decimalformat object
-    
+    //NumberFormat is a class. money is a object. mew DecimalFormat is a constructor.
     
             NumberFormat money = NumberFormat.getCurrencyInstance();
             NumberFormat percent = NumberFormat.getPercentInstance();
-            DecimalFormat fmt =new DecimalFormat("0.###");
-            DecimalFormat fmt2= new DecimalFormat("0.00");// ## vs 00
+            DecimalFormat fmt =new DecimalFormat("0.###"); //.### limits it to 3 decimal place round and float 
+            DecimalFormat fmt2= new DecimalFormat("0.00");// ## vs 00. //.00 pads with zeros. 
             
     
             System.out.println( "Sub Total: " + money.format(num1) );
-            System.out.println( "Sub Total: " + percent.format(num1) );
+            System.out.println( "Sub Total: " + percent.format(.5) );
             System.out.println( "Sub Total: " + fmt.format(num1) );
             System.out.println( "Sub Total: " + fmt2.format(num2) );
+            System.out.println( "Sub Total: " + fmt.format(num2) );
+            System.out.println( "Sub Total: " + fmt2.format(num1) );
     
     
     // page 90 Why do we get this Error???
