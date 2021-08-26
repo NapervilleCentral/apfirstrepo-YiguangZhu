@@ -103,13 +103,14 @@ public class ch2notes5
     
     
     // page 90 Why do we get this Error???
-    /*
+    /**/
             System.out.print("Enter a number ");
             x = Keyboard.nextInt   ();
             System.out.println(x  );
             System.out.print("Enter a word ");
             //word = Keyboard.next   ();
             word = Keyboard.nextLine   ();
+            System.out.println("The word is" + word );
     
     /*
             System.out.print("Enter a decimal");
