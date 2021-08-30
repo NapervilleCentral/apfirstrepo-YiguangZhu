@@ -103,7 +103,7 @@ public class ch2notes5
     
     
     // page 90 Why do we get this Error???
-    /**/
+    /*
             System.out.print("Enter a number ");
             x = Keyboard.nextInt   (5);
             System.out.println(x  );
@@ -157,7 +157,7 @@ public class ch2notes5
             System.out.println(num);
     /*
     
-    /*
+    /**/
     //----------------------------Know it live it love it p 78
             //word is an oject can do things (NOT len(word))
             System.out.println(  word.length() );
@@ -165,6 +165,11 @@ public class ch2notes5
             System.out.println( x == 9 );
             System.out.println(  word.compareTo(word3 ));
             System.out.println(  word.indexOf("p"));
+            //slice up the string
+            //substring index  reruns string from index
+            System.out.println(  word.substring(word.indexOf("S")));
+            // this substring(start, end);
+            int find = word.indexOf("S");
             
             
     
@@ -176,8 +181,9 @@ public class ch2notes5
     //System.out.println((int)(letter + letter ) );
     
         //System.out.println( (char)101 );
-    /**/
-            double conversionFactor = (double)x/5; //9/5 logic error -- promotion 5.0
+    /*                       //int divided by int gives you a number result
+            double conversionFactor = 9.0/5; //9/5 logic error -- promotion 5.0(double)x/
+            double conversionFactor = (double)x/y;//casting widening the data type
             System.out.println(conversionFactor);
             final int BASE = 32;            // cast is (data type)
             int celsiusTemp = 30;
@@ -186,8 +192,9 @@ public class ch2notes5
     
             System.out.println("Celsius Temp: " + celsiusTemp );
             System.out.println("Fahrenheit Equivalent" + fahrenTemp  );
+             System.out.println((int)Math.random()*100);
     
-    /*
+    /**/
         num = num + num;
         num = num - num;
         num = num * num;
