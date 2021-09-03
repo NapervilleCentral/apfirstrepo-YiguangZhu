@@ -10,6 +10,7 @@ public class RandomPhone
    public static void main(String[] args)
    {
        Random generator = new Random(); 
-       DecimalFormat 
+       DecimalFormat fmt = new DecimalFormat ("0.###");
+       
    
 }
