@@ -23,7 +23,7 @@ public class CoininJar
         int pennies= money.nextInt();
         
         
-        //outputs the decimal currency for their apporiate value
+        //convert the coins into actual amout of money
         double currency= 0.25*quarters+0.1*dimes+0.05*nickels+0.01*pennies;
         NumberFormat equal = NumberFormat.getCurrencyInstance();
         System.out.println("You have: $"+currency);
