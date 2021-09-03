@@ -202,6 +202,10 @@ public class ch2notes5
         num = num % 3;
         System.out.println(num);
     
+   
+    System.out.println (str.substringCharAt(3)); //How to print a char in a string
+
+    SOP(word.toUpperCase()); //How to uppercase 
     
     
     /**/

@@ -13,6 +13,7 @@ public class CoininJar
     {
         //Asks user for 4 types of coins
         Scanner money = new Scanner(System.in);
+        
         System.out.println("Enter quarters");
         int quarters= money.nextInt();
         System.out.println("Enter dimes");
@@ -23,10 +24,11 @@ public class CoininJar
         int pennies= money.nextInt();
         
         
-        //convert the coins into actual amout of money
+        //convert the number of coins into amout of dollars with each coin value.
         double currency= 0.25*quarters+0.1*dimes+0.05*nickels+0.01*pennies;
         NumberFormat equal = NumberFormat.getCurrencyInstance();
-        System.out.println("You have: $"+currency);
+        
+        System.out.println("You have: "+equal.format(currency));
     }
         
 }
