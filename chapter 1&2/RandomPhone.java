@@ -21,7 +21,7 @@ public class RandomPhone
        int y = rm.nextInt(743);
        
        //Sets the bound of 10000 for all of the numbers
-       int z = rm.nextInt (10000);
+       int z = (int)(Math.random()*(10000));
        
        //Display decimal format for 1st and 2nd three digits.
        DecimalFormat df = new DecimalFormat("000");
@@ -33,7 +33,7 @@ public class RandomPhone
        String phnum = df.format(x) + "-" + df.format(y) + "-" + ddf.format(z);
        System.out.println("Phone Number:"+phnum); 
     }
-       
+       // Phone Number:657-095-9287
        
 
        
