@@ -15,7 +15,7 @@ public class RandomPhone
        Random rm = new Random(); 
        
        //To generate a random number of first 3 digit not containing 8 or 9.
-       int x = (rm.nextInt(8) * 100) + (rm.nextInt(8) * 10) + rm.nextInt(8);
+       int x = ((rm.nextInt(7)+1) * 100) + (rm.nextInt(8) * 10) + rm.nextInt(8);
        
        //Sets the bound of 743 for the next 3 numbers.
        int y = rm.nextInt(743);
