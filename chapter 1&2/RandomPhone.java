@@ -1,7 +1,7 @@
 
 /**
  * A random phone number generator.
- *
+ * This program generates a random phone number for the user.
  * @author (Yiguang Zhu)
  * @version (a version number or a date)
  */
