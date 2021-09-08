@@ -11,7 +11,10 @@ public class Name
     public static void main(String[] args)
     {
         String fullname = JOptionPane.showInputDialog("Enter your name");
+        
+        //Define spacePosition to be used to cut off the print of full name until the first space.
         int spacePosition = fullname.indexOf(" ");
+        //Creates a newname that starts after the first space.
         String newname = fullname.substring(spacePosition+1);
         int pacePosition = newname.indexOf(" ");
         
