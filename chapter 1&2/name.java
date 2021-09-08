@@ -6,7 +6,7 @@
  * @version (9/6/2021)
  */
 import javax.swing.JOptionPane; 
-public class Name
+public class name
 {
     public static void main(String[] args)
     {
