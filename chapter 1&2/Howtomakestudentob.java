@@ -7,5 +7,5 @@
  */
 public class Howtomakestudentob
 {
-   Student me = new Sstudent("Kevin", "Hayes", 1234);
+   Student me = new Student("Kevin", "Hayes", 1234);
 }
